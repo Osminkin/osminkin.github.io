@@ -24,9 +24,9 @@ export default () => (
       excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
     <User
-      username="Bob Smith"
+      username="Ivan Petrov"
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-      excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      excerpt="I'm Ivan Petrov, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
   </Container>
 )
