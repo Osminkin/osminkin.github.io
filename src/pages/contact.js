@@ -3,8 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-
-const aboutPage = () => {
+const contactPage = () => {
   return (
     <div>
       <Layout>
@@ -15,4 +14,4 @@ const aboutPage = () => {
   )
 }
 
-export default aboutPage
+export default contactPage
