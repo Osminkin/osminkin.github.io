@@ -9,7 +9,7 @@ module.exports = {
     title: "Eugene Osminkin",
     author: "Eugene Osminkin",
   },
-  pathPrefix: "/reponame",
+//  pathPrefix: "/reponame",
   plugins: [
     "gatsby-plugin-sass",
     {
