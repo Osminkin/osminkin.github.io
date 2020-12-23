@@ -6,34 +6,34 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Eugene Osminkin',
-    author: 'Eugene Osminkin'
+    title: "Eugene Osminkin",
+    author: "Eugene Osminkin",
   },
+  pathPrefix: "/reponame",
   plugins: [
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'src',
-        path: `${__dirname}/src/`
-      }
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
     },
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          "gatsby-remark-relative-images",
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 750,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
-    }
-    
-  ]
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
+  ],
 }

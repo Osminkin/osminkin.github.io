@@ -9,7 +9,7 @@ const aboutPage = () => {
     <div>
       <Layout>
       <h1>About Me</h1>
-      <p>Post's place</p>
+      <p>I'm Eugene Osminkin, data analyst from San Diego, CA.</p>
       </ Layout>
     </div>
   )

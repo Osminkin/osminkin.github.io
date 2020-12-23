@@ -5,11 +5,20 @@ import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-      <Layout>
-      <h1>Hello</h1>
-      <h2>It's Eugene Osminkin</h2>
-      <p>Contact me here: <Link to="/contact" >CLICK ME</Link></p>
-      </Layout>
+    <Layout>
+      <h1>Welcome</h1>
+      <p>
+        I'm Eugene Osminkin, data analyst from San Diego, CA.
+        <br />
+        Here you can soon take a look at a couple of things that I found out
+        interesting and even built a couple of them.
+        <br />
+        Stay tuned!
+        <br />
+        <br />
+        Contact me <Link to="/contact">here</Link>.
+      </p>
+    </Layout>
   )
 }
 
