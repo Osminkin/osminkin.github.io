@@ -10,8 +10,8 @@ const IndexPage = () => {
       <p>
         I'm Eugene Osminkin, data analyst from San Diego, CA.
         <br />
-        Here you can soon take a look at a couple of things that I found out
-        interesting and even built a couple of them.
+        Here you will soon be able to take a look at a couple of things that I found
+        interesting. I even made a couple of them.
         <br />
         Stay tuned!
         <br />
