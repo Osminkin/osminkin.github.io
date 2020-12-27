@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
+
 const IndexPage = () => {
   return (
     <Layout>
@@ -10,13 +11,12 @@ const IndexPage = () => {
       <p>
         I'm Eugene Osminkin, data analyst from San Diego, CA.
         <br />
-        Here you will soon be able to take a look at a couple of things that I found
-        interesting. I even made a couple of them.
+        Here you will soon be able to take a look at a couple of things that I
+        found interesting. I even made a couple of them.
+        <br />
         <br />
         Stay tuned!
         <br />
-        <br />
-        Contact me <Link to="/contact">here</Link>.
       </p>
     </Layout>
   )
