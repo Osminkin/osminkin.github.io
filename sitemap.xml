@@ -11,7 +11,7 @@
   
   <url>
     <loc>https://osminkin.github.io/posts/firstpost/</loc>
-    <lastmod>2024-04-01T09:45:18.000Z</lastmod>
+    <lastmod>2024-04-01T10:53:37.000Z</lastmod>
   </url>
   
   
@@ -24,7 +24,7 @@
   
   <url>
     <loc>https://osminkin.github.io/posts/secondpost/</loc>
-    <lastmod>2024-04-01T09:45:18.000Z</lastmod>
+    <lastmod>2024-04-01T10:53:37.000Z</lastmod>
   </url>
   
   
@@ -37,7 +37,7 @@
   
   <url>
     <loc>https://osminkin.github.io/posts/thirdpost/</loc>
-    <lastmod>2024-04-01T09:45:18.000Z</lastmod>
+    <lastmod>2024-04-01T10:53:37.000Z</lastmod>
   </url>
   
   
@@ -50,7 +50,7 @@
   
   <url>
     <loc>https://osminkin.github.io/posts/fourthpost/</loc>
-    <lastmod>2024-04-01T09:45:18.000Z</lastmod>
+    <lastmod>2024-04-01T10:53:37.000Z</lastmod>
   </url>
   
   
@@ -63,7 +63,7 @@
   
   <url>
     <loc>https://osminkin.github.io/about/</loc>
-    <lastmod>2024-04-01T09:45:34.568Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.232Z</lastmod>
   </url>
   
   
@@ -76,7 +76,7 @@
   
   <url>
     <loc>https://osminkin.github.io/posts/</loc>
-    <lastmod>2024-04-01T09:45:34.568Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.232Z</lastmod>
   </url>
   
   
@@ -89,7 +89,7 @@
   
   <url>
     <loc>https://osminkin.github.io/</loc>
-    <lastmod>2024-04-01T09:45:34.584Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
   </url>
   
   
@@ -102,7 +102,7 @@
   
   <url>
     <loc>https://osminkin.github.io/page-list/</loc>
-    <lastmod>2024-04-01T09:45:34.588Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
   </url>
   
   
@@ -115,20 +115,7 @@
   
   <url>
     <loc>https://osminkin.github.io/tags/</loc>
-    <lastmod>2024-04-01T09:45:34.588Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://osminkin.github.io/tags/second-tag/</loc>
-    <lastmod>2024-04-01T09:45:34.588Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
   </url>
   
   
@@ -141,7 +128,20 @@
   
   <url>
     <loc>https://osminkin.github.io/tags/another-tag/</loc>
-    <lastmod>2024-04-01T09:45:34.588Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://osminkin.github.io/tags/second-tag/</loc>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
   </url>
   
   
@@ -154,6 +154,6 @@
   
   <url>
     <loc>https://osminkin.github.io/tags/number-2/</loc>
-    <lastmod>2024-04-01T09:45:34.588Z</lastmod>
+    <lastmod>2024-04-01T10:53:51.248Z</lastmod>
   </url>
 </urlset>
