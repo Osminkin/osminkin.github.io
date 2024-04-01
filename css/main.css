@@ -226,12 +226,19 @@ html {
   }
 }
 */
+
 @font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Regular-Trial.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* @font-face {
   font-family: "Inter UI";
   font-weight: 100 900;
   font-style: oblique 0deg 10deg;
   src: url("/fonts/Inter-3.19.var.woff2") format("woff2");
-}
+} */
 
 /*
 
@@ -689,8 +696,8 @@ dt {
   }
 }
 html {
-  font-family: Inter UI, sans-serif;
-  --font-family: Inter UI, sans-serif;
+  font-family: Canela, sans-serif;
+  --font-family: Canela, sans-serif;
 }
 form {
   padding: 1.5em 1.5em 0;

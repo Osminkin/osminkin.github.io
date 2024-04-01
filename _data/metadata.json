@@ -17,10 +17,10 @@
     "url": "https://osminkin.github.io/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
+    "name": "By Eugene Osminkin",
     "twitterHandle": "update_me"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Eugene Osminkin"
   }
 }
