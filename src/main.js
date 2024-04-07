@@ -274,3 +274,12 @@ for (let img of document.querySelectorAll("img")) {
     removeBlurredImage(img);
   }
 }
+document
+  .getElementById("dark-mode-toggle")
+  .addEventListener("change", function () {
+    if (this.checked) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  });

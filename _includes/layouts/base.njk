@@ -52,6 +52,7 @@
     <script async defer src="{{ "/js/min.js" | addHash }}"
       {% if webvitals %}data-cwv-src="{{ "/js/web-vitals.js" | addHash }}"{% endif %}>
     </script>
+    <script src="/js/dark-mode.js"></script>
     {% if googleanalytics %}
       <script async defer src="{{ "/js/cached.js" | addHash }}"></script>
     {% endif %}
@@ -69,6 +70,10 @@
           {%- for entry in collections.all | eleventyNavigation %}
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           {%- endfor %}
+          <label class="toggle-switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider"></span>
+          </label>
         </div>
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
