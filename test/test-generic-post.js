@@ -70,7 +70,7 @@ describe("check build output for a generic post", () => {
       );
     });
 
-    it("should have GA a setup", () => {
+    it("should have GA setup", () => {
       if (!GA_ID) {
         return;
       }
