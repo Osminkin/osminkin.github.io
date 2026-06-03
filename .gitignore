@@ -5,6 +5,7 @@ js/min.js
 js/min.js.map
 .vscode/
 .netlify/
+.vercel/
 export
 
 # Python
@@ -19,3 +20,4 @@ dist/
 build/
 *.egg-info/
 .venv/
+.vercel
