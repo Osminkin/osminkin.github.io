@@ -1,0 +1,11 @@
+/*
+  Cache-Control: public,max-age=300
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+
+/style.css
+  Cache-Control: public,max-age=300
+
+/script.js
+  Cache-Control: public,max-age=300
