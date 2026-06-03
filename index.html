@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eugene Osminkin - Welcome to My Cyber Space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with animated title -->
+        <header class="header">
+            <div class="title-container">
+                <h1 class="main-title">
+                    <span class="neon-text">EUGENE OSMINKIN</span>
+                </h1>
+                <div class="subtitle">
+                    <span class="typing-text">Welcome to my personal cyberspace!</span>
+                </div>
+            </div>
+            <div class="visitor-counter">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="counter" class="counter-gif">
+                <span>You are visitor #<span id="counter">001337</span></span>
+            </div>
+        </header>
+
+        <!-- Navigation with 90s buttons -->
+        <nav class="nav-bar">
+            <button class="nav-btn" onclick="showSection('about')">
+                <span>📖 ABOUT ME</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('projects')">
+                <span>💻 PROJECTS</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('skills')">
+                <span>⚡ SKILLS</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('contact')">
+                <span>📧 CONTACT</span>
+            </button>
+        </nav>
+
+        <!-- Main content sections -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="content-section active">
+                <div class="section-header">
+                    <h2>🌟 About Eugene 🌟</h2>
+                </div>
+                <div class="content-box">
+                    <div class="profile-area">
+                        <div class="avatar-container">
+                            <div class="avatar">👨‍💻</div>
+                            <div class="status-indicator">
+                                <span class="blinking">● ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="bio">
+                            <p>Greetings, fellow netizen! I'm Eugene Osminkin, your friendly neighborhood code wizard 🧙‍♂️</p>
+                            <p>I spend my days crafting digital experiences, solving complex problems, and exploring the vast frontiers of technology.</p>
+                            <p>When I'm not coding, you can find me diving into the latest tech trends, experimenting with new frameworks, or enjoying a good cup of coffee ☕</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="content-section">
+                <div class="section-header">
+                    <h2>🚀 My Digital Creations 🚀</h2>
+                </div>
+                <div class="content-box">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-icon">🌐</div>
+                            <h3>Personal Website</h3>
+                            <p>This rad 90s-style website you're browsing right now!</p>
+                            <div class="tech-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-icon">🔧</div>
+                            <h3>Coming Soon...</h3>
+                            <p>More awesome projects are being cooked up in the digital kitchen!</p>
+                            <div class="tech-tags">
+                                <span class="tag">???</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="content-section">
+                <div class="section-header">
+                    <h2>⚡ Technical Arsenal ⚡</h2>
+                </div>
+                <div class="content-box">
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>💻 Languages</h3>
+                            <div class="skill-bars">
+                                <div class="skill-item">
+                                    <span>Python</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>JavaScript</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>HTML/CSS</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>🛠️ Tools & Frameworks</h3>
+                            <div class="tech-icons">
+                                <div class="tech-icon">React</div>
+                                <div class="tech-icon">Node.js</div>
+                                <div class="tech-icon">Git</div>
+                                <div class="tech-icon">Docker</div>
+                                <div class="tech-icon">VS Code</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <div class="section-header">
+                    <h2>📡 Connect With Me 📡</h2>
+                </div>
+                <div class="content-box">
+                    <div class="contact-info">
+                        <p>Ready to collaborate or just want to say hi? Drop me a line!</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <span>Email: eugene@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">🐙</span>
+                                <span>GitHub: github.com/osminkin</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">💼</span>
+                                <span>LinkedIn: Coming Soon</span>
+                            </div>
+                        </div>
+
+                        <div class="guestbook">
+                            <h3>📝 Sign My Guestbook</h3>
+                            <textarea placeholder="Leave a message, fellow traveler of the web..."></textarea>
+                            <button class="submit-btn" onclick="signGuestbook()">Submit Message</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer with 90s elements -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="webring">
+                    <span>🔗 Part of the Eugene Web Ring 🔗</span>
+                </div>
+                <div class="credits">
+                    <p>© 2025 Eugene Osminkin | Best viewed in Netscape Navigator 4.0+ 🌐</p>
+                    <p>This site is Y2K compliant! | Last updated: <span id="last-updated"></span></p>
+                </div>
+                <div class="retro-badges">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Made with HTML" class="badge">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="CSS Powered" class="badge">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="JavaScript Enhanced" class="badge">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Floating elements for extra 90s vibe -->
+    <div class="floating-elements">
+        <div class="star star-1">✨</div>
+        <div class="star star-2">⭐</div>
+        <div class="star star-3">🌟</div>
+        <div class="star star-4">💫</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

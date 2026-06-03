@@ -1,0 +1,22 @@
+[project]
+name = "poetry-eugene"
+version = "0.1.0"
+description = "A minimal Poetry package for Eugene Osminkin's personal project workspace."
+authors = [
+    {name = "Eugene Osminkin"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "poetry_eugene", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
